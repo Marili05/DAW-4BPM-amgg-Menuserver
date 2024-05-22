@@ -1,0 +1,17 @@
+/* Este es un comentario en CSS */
+/*ANDREA MARILI GAXIOLA GONZALEZ GRUPO: 4BPM */
+/* DAW Fecha: 17 DE MARZO DEL 2024*/
+/*A continuacion le APLICAMOS CSS a la actividad11.html desde un archivo css actividad11.css*/
+img {
+    width: 300px;
+    height: 270px;
+}
+
+td {
+    color: #ADACAA;
+}
+
+th {
+    color: #6B5DFA;
+}
+   
