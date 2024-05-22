@@ -1,0 +1,159 @@
+/* Este es un comentario en CSS */
+/*ANDREA MARILI GAXIOLA GONZALEZ GRUPO: 4BPM */
+/* DAW Fecha: 17 DE MARZO DEL 2024*/
+/*A continuacion le APLICAMOS CSS a la actividad8.html desde un archivo css actividad8.css*/
+h2{
+    color: #656362;
+
+}
+body{
+    background: #c6fce5 ;
+}
+.sectit{
+    display: flex;
+    align-items:last center;
+    justify-content:center;
+}
+.conttit{
+    width: 200px;
+    height: 120px;
+    background: rgb(110,243,214);
+background: linear-gradient(90deg, rgba(110,243,214,1) 17%, rgb(152, 232, 246) 100%, rgb(169, 226, 248) 100%);
+}
+h1{
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #0dceda;
+}
+.seclist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ol{
+    padding: 5px;
+    list-style:georgian;
+    background: #6ef3d6;
+    margin: 10px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+li{
+    margin: 0 0 0 15px;
+}
+section.imgs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.imgc{
+    width: 500px;
+    height: 400px;
+    filter: brightness(30px);
+    -webkit-filter: brightness(30px);
+}
+video{
+    width: 700px;
+    height: 400px;
+    margin: 30px 300px;
+}
+/*estilos generales de los botones*/
+.enlaces{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  a{
+    text-decoration: none;
+    color: #000;
+    padding: 10px 25px;
+    font-size: 25px;
+    border: 3px solid black;
+    position: relative;
+    transition: all 1s;
+    margin: 30px;
+  }
+  a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    transition: 1s;
+    transform: rotateX(90deg);
+    z-index: -1;
+  }
+  a::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    transition: 1s;
+    transform: rotateY(90deg);
+    z-index: -1;
+  }
+  a:hover::before{
+    transform: rotateX(0deg);
+    
+  }
+  a:hover::after{
+    transform: rotateY(0deg);
+  }
+  a:hover{
+    color: #fff;
+   
+  }
+  /*estilos generales de la card personal*/
+  .cardconteiner{
+    position: relative;
+    width: 700px;
+    height: 600px;
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+    margin: 100px auto ;
+    background: #f8fcd4;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+  .imgcard{
+    box-shadow: 4px 4px 10px  rgba(0,0,0,.3);
+    overflow: hidden;
+    position: absolute;
+    top: 50px;
+    left: -50px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+  img.img{
+    width: 400px;
+    height: 502px;
+    
+  }
+  .cards{
+    text-align: right;
+    padding: 30px;
+    font-size: 20px;
+  }
+  h4{
+    margin-top: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f7d82e;
+    text-shadow: #b7b7b6 2px 2px;
+  }
