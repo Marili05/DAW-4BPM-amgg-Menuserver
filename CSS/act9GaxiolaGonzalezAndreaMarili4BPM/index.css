@@ -1,0 +1,133 @@
+/* Este es un comentario en CSS */
+/*ANDREA MARILI GAXIOLA GONZALEZ GRUPO: 4BPM */
+/* DAW Fecha: 17 DE MARZO DEL 2024*/
+/*A continuacion le APLICAMOS CSS a la actividad9.html desde un archivo css actividad9.css*/
+body{
+    background: #cadade;
+}
+h1{
+    color: #52CFF3;
+    text-align: center;
+}
+h2{
+    color: #96999A;
+    text-align: center;
+}
+p{
+    font-size: 20px; 
+    width: 70%; 
+    margin: 0 0 0 200px;
+     color: #9F9C9A;
+}
+ul{
+    color :#96999A;
+}
+table{
+    margin: 10px  auto;
+    width: 80%;
+}
+th,td{
+    color: #15a0c7;
+    padding: 12px;
+    border-bottom: 1px solid #4f5151;
+}
+.contim{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+/*estilos generales de los botones*/
+.enlaces{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  a{
+    text-decoration: none;
+    color: #000;
+    padding: 10px 25px;
+    font-size: 25px;
+    border: 3px solid black;
+    position: relative;
+    transition: all 1s;
+    margin: 30px;
+  }
+  a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    transition: 1s;
+    transform: rotateX(90deg);
+    z-index: -1;
+  }
+  a::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    transition: 1s;
+    transform: rotateY(90deg);
+    z-index: -1;
+  }
+  a:hover::before{
+    transform: rotateX(0deg);
+    
+  }
+  a:hover::after{
+    transform: rotateY(0deg);
+  }
+  a:hover{
+    color: #fff;
+   
+  }
+  /*estilos generales de la card personal*/
+  .cardconteiner{
+    position: relative;
+    width: 700px;
+    height: 600px;
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+    margin: 100px auto ;
+    background: #f8fcd4;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+  .imgcard{
+    box-shadow: 4px 4px 10px  rgba(0,0,0,.3);
+    overflow: hidden;
+    position: absolute;
+    top: 50px;
+    left: -50px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+  img.img{
+    width: 400px;
+    height: 502px;
+    
+  }
+  .cards{
+    text-align: right;
+    padding: 30px;
+    font-size: 20px;
+  }
+  h4{
+    margin-top: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f7d82e;
+    text-shadow: #b7b7b6 2px 2px;
+  }
